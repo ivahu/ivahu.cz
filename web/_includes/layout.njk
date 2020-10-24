@@ -100,7 +100,7 @@ title: Iva Hujerová - PPC specialista, analytika, marketingové strategie
                             {%- for blogpost in collections.blogpost | reverse | slicejs(3) -%}
                                 <li>
                                     <a href="{{ blogpost.url }}">
-                                        {{ blogpost.data.title }}
+                                        {{ blogpost.data.title -}}
                                     </a>
                                     <small>{{ blogpost.date | dateformat }}</small>
                                     {% if blogpost.data.perex %}
