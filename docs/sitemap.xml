@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+            <loc>https://www.ivahu.cz/blog/veverka/</loc>
+        </url>
+    <url>
+            <loc>https://www.ivahu.cz/blog/pocitadlo/</loc>
+        </url>
+    <url>
             <loc>https://www.ivahu.cz/</loc>
         </url>
     <url>
             <loc>https://www.ivahu.cz/o-mne/</loc>
         </url>
     <url>
-            <loc>https://www.ivahu.cz/blog/pocitadlo-navstevnosti/</loc>
+            <loc>https://www.ivahu.cz/blog/post0/</loc>
+        </url>
+    <url>
+            <loc>https://www.ivahu.cz/blog/post1/</loc>
         </url>
     <url>
             <loc>https://www.ivahu.cz/blog/</loc>
