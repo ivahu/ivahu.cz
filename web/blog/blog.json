@@ -1,8 +1,0 @@
-{
-    "tags": [
-        "blogpost",
-        "sitemap"
-    ],
-    "permalink": "/blog/{{ page.fileSlug }}/",
-    "layout": "blogpost"
-}
