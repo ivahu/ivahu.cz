@@ -10,10 +10,6 @@ module.exports = function(eleventyConfig) {
         return `${day}. ${month}. ${year}`;
     });
 
-    eleventyConfig.addFilter('slicejs', function (dataIn) {
-        return dataIn.slice(0, 3);
-    });
-
     return {
         dir: {
             input: "web",

@@ -92,26 +92,6 @@ title: Iva Hujerová - PPC specialista, analytika, marketingové strategie
 
             {{ content | safe }}
 
-            {% if page.url != '/blog/' %}
-                <div class="row">
-                    <div class="col">
-                        <h2>Nově na blogu</h2>
-                        <ul>
-                            {%- for blogpost in collections.blogpost | reverse | slicejs(3) -%}
-                                <li>
-                                    <a href="{{ blogpost.url }}">
-                                        {{ blogpost.data.title }}
-                                    </a>
-                                    <small>{{ blogpost.date | dateformat }}</small>
-                                    {% if blogpost.data.perex %}
-                                        <p>{{ blogpost.data.perex }}</p>
-                                    {% endif %}
-                                </li>
-                            {%- endfor -%}
-                        </ul>
-                    </div>
-                </div>
-            {% endif %}
         </div>
     </body>
 
