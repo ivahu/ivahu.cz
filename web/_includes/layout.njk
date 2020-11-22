@@ -1,5 +1,6 @@
 ---
 title: Iva Hujerová - PPC specialista, analytika, marketingové strategie
+description: Specializuji se na online marketing pro malé a střední firmy. Věnuji se PPC kampaním, analytice a SEO. Nabízím nastavení kampaní, audit i školení.
 ---
 <!DOCTYPE html>
 <html lang="cs">
@@ -9,8 +10,12 @@ title: Iva Hujerová - PPC specialista, analytika, marketingové strategie
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <title>{{ title }}</title>
-        <meta name="description"
-              content="Specializuji se na online marketing pro malé a střední firmy. Věnuji se PPC kampaním, analytice a SEO. Nabízím nastavení kampaní, audit i školení.">
+        <meta name="description" content="{{ description }}">
+        <meta property="og:url" content="{{ baseUrl }}{{ page.url }}"/>
+        <meta property="og:title" content="{{ title }}"/>
+        <meta property="og:description" content="{{ description }}"/>
+        <meta property="og:image" content="{{ baseUrl }}/assets/fb-share.png"/>
+        <meta property="og:locale" content="cs_CZ"/>
 
         <!-- Google Tag Manager -->
         <script>(function (w, d, s, l, i) {
