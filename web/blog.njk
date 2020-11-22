@@ -1,0 +1,20 @@
+---
+tags: ['sitemap']
+title: Blog o online marketingu
+---
+
+<h2>Blog o online marketingu</h2>
+
+<ul class="blogposts bullets-list">
+    {%- for blogpost in collections.blogpost | reverse -%}
+        <li>
+            <a href="{{ blogpost.url }}" class="blogpost-title-link">
+                {{ blogpost.data.title }}
+            </a>
+            <small>{{ blogpost.date | dateformat }}</small>
+            {% if blogpost.data.description %}
+                <p>{{ blogpost.data.description }}</p>
+            {% endif %}
+        </li>
+    {%- endfor -%}
+</ul>

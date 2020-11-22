@@ -9,10 +9,10 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>{{ title }}</title>
+        <title>{{ title }} | IvaHu.cz</title>
         <meta name="description" content="{{ description }}">
         <meta property="og:url" content="{{ baseUrl }}{{ page.url }}"/>
-        <meta property="og:title" content="{{ title }}"/>
+        <meta property="og:title" content="{{ title }} | IvaHu.cz"/>
         <meta property="og:description" content="{{ description }}"/>
         <meta property="og:image" content="{{ baseUrl }}/assets/fb-share.png"/>
         <meta property="og:locale" content="cs_CZ"/>
@@ -37,6 +37,7 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
         <style>
             .menu h1 {
                 font-size: 3em;
+                font-weight: normal;
             }
 
             body, .menu a {
@@ -77,6 +78,10 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
                 font-weight: 500;
                 font-size: 1.5em;
                 background-color: #2F80ED;
+            }
+
+            h1 {
+                font-weight: bold;
             }
 
             h2 {
@@ -141,7 +146,7 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
             }
 
             .main-content {
-                min-height: 20em;
+                min-height: 25em;
             }
 
             footer {
@@ -156,6 +161,13 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
             footer ul {
                 list-style: none;
                 padding-left: 0;
+            }
+
+            .blogposts .blogpost-title-link {
+                font-weight: bold;
+            }
+            .blogposts p {
+                font-size: 90%;
             }
 
         </style>
@@ -182,6 +194,9 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
                         <li class="nav-item ml-4 mr-4 {% if page.url == '/o-mne/' %}active{% endif %}">
                             <a class="nav-link" href="/o-mne/">O mně</a>
                         </li>
+                        <li class="nav-item ml-4 mr-4 {% if '/blog' in page.url %}active{% endif %}">
+                            <a class="nav-link" href="/blog/">Blog</a>
+                        </li>
                         <li class="nav-item ml-4 mr-4 {% if page.url == '/kontakt/' %}active{% endif %}">
                             <a class="nav-link" href="/kontakt/">Kontakt</a>
                         </li>
@@ -190,7 +205,7 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
             </div>
         </div>
 
-
+        {% if '/blog' not in page.url %}
         <div class="container-fluid hero-banner">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
@@ -230,6 +245,7 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
                 </div>
             </div>
         </div>
+        {% endif %}
 
         <div class="container main-content">
 
@@ -237,18 +253,61 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
 
         </div>
 
+        {# Blogposts
+        {% if page.url != '/blog/' %}
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h2>Nově na blogu</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        {%- for blogpost in collections.blogpost | reverse | slicejs(3) -%}
+                            <div class="partnership-block-wrapper col-sm-12 col-md-4 col-lg-4 ">
+                                <div class="partnership-block">
+                                    <a href="{{ blogpost.url }}">
+                                        {{ blogpost.data.title -}}
+                                    </a>
+                                    <small>{{ blogpost.date | dateformat }}</small>
+                                    {% if blogpost.data.perex %}
+                                        <p>{{ blogpost.data.perex }}</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        {%- endfor -%}
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+        #}
+
         <footer class="container-fluid hero-banner">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
                         <h4>IvaHu.cz</h4>
                         <ul>
                             <li><a class="{% if page.url == '/o-mne/' %}active{% endif %}" href="/o-mne/">O mně</a></li>
-                            <li><a class=" {% if page.url == '/kontakt/' %}active{% endif %}" href="/kontakt/">Kontakt</a></li>
+                            <li><a class="{% if '/blog' in page.url %}active{% endif %}" href="/blog/">Blog</a></li>
+                            <li><a class="{% if page.url == '/kontakt/' %}active{% endif %}" href="/kontakt/">Kontakt</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <h4>Nově na blogu</h4>
+                        <ul>
+                            {%- for blogpost in collections.blogpost | reverse | slicejs(5) -%}
+                                <li>
+                                    <a href="{{ blogpost.url }}">
+                                        {{ blogpost.data.title -}}
+                                    </a>
+                                </li>
+                            {%- endfor -%}
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-4">
                         <h4>Kontakt</h4>
                         <ul>
                             <li>
