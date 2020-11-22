@@ -140,6 +140,24 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
                 border-radius: 50%;
             }
 
+            .main-content {
+                min-height: 20em;
+            }
+
+            footer {
+                padding: 2em;
+                font-size: 85%;
+            }
+
+            footer h4 {
+                font-size: 1.2rem;
+            }
+
+            footer ul {
+                list-style: none;
+                padding-left: 0;
+            }
+
         </style>
     </head>
 
@@ -194,7 +212,7 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
                             </p>
                         {% endif %}
                         {% if page.url == '/kontakt/' %}
-                            <h2 class="text-left">Kontakt</h2>
+                            <h2 class="text-left">Ing. Iva Hujerová <small>(Kusáková)</small></h2>
 
                             <p class="hero-claim text-left">
                                 <strong>E-mail:</strong>
@@ -213,11 +231,36 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
             </div>
         </div>
 
-        <div class="container">
+        <div class="container main-content">
 
             {{ content | safe }}
 
         </div>
+
+        <footer class="container-fluid hero-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h4>IvaHu.cz</h4>
+                        <ul>
+                            <li><a class="{% if page.url == '/o-mne/' %}active{% endif %}" href="/o-mne/">O mně</a></li>
+                            <li><a class=" {% if page.url == '/kontakt/' %}active{% endif %}" href="/kontakt/">Kontakt</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h4>Kontakt</h4>
+                        <ul>
+                            <li>
+                                <strong>E-mail:</strong>
+                                <a class="contact-email" href="mailto:iva@ivahu.cz">iva@ivahu.cz</a>
+                            </li>
+                            <li><a href="/kontakt/">Více kontaktů</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 
 </html>
