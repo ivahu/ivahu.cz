@@ -44,6 +44,27 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
                 font-weight: normal;
             }
 
+            @media (max-width: 568px) {
+                .menu-wrapper, .menu-wrapper-outer {
+                    padding-right: 0px;
+                }
+
+                .menu h1 {
+                    font-size: 2.2em;
+                    margin-right: 0.5rem;
+                }
+            }
+
+            @media (max-width: 320px) {
+                .menu-wrapper, .menu-wrapper-outer {
+                    padding-right: 0px;
+                }
+                .menu h1 {
+                    font-size: 1.8em;
+                    margin-right: 0.5rem;
+                }
+            }
+
             body, .menu a {
                 color: #373737;
             }
@@ -62,6 +83,13 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
 
             .menu ul li.active {
                 font-weight: bold;
+            }
+
+            #navbar-toggle-cbox {
+                display:none
+            }
+            #navbar-toggle-cbox:checked ~ .collapse {
+                display: block;
             }
 
             .hero-banner {
@@ -204,26 +232,36 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
 
-        <div class="container-fluid">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg menu">
+        <div class="container-fluid menu-wrapper-outer">
+            <div class="container menu-wrapper">
+                <nav class="navbar navbar-expand-lg navbar-light menu">
                     <h1 class="navbar-brand">
                         <a href="/">
                             <strong>Iva Hujerová</strong>
                         </a>
                     </h1>
 
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ml-4 mr-4 {% if page.url == '/o-mne/' %}active{% endif %}">
-                            <a class="nav-link" href="/o-mne/">O mně</a>
-                        </li>
-                        <li class="nav-item ml-4 mr-4 {% if '/blog' in page.url %}active{% endif %}">
-                            <a class="nav-link" href="/blog/">Blog</a>
-                        </li>
-                        <li class="nav-item ml-4 mr-4 {% if page.url == '/kontakt/' %}active{% endif %}">
-                            <a class="nav-link" href="/kontakt/">Kontakt</a>
-                        </li>
-                    </ul>
+                    <input type="checkbox" id="navbar-toggle-cbox">
+
+                    <label for="navbar-toggle-cbox" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <div class="navbar-toggler">
+                            <span class="navbar-toggler-icon"></span>
+                        </div>
+                    </label>
+
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item ml-4 mr-4 {% if page.url == '/o-mne/' %}active{% endif %}">
+                                <a class="nav-link" href="/o-mne/">O mně</a>
+                            </li>
+                            <li class="nav-item ml-4 mr-4 {% if '/blog' in page.url %}active{% endif %}">
+                                <a class="nav-link" href="/blog/">Blog</a>
+                            </li>
+                            <li class="nav-item ml-4 mr-4 {% if page.url == '/kontakt/' %}active{% endif %}">
+                                <a class="nav-link" href="/kontakt/">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </div>
