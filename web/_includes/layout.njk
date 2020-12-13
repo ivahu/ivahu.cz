@@ -87,6 +87,12 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
                 font-weight: bold;
             }
 
+            @media (min-width: 992px) {
+                .menu ul li:first-of-type.active {
+                    font-weight: normal;
+                }
+            }
+
             #navbar-toggle-cbox {
                 display:none
             }
@@ -253,13 +259,16 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
 
                     <div class="collapse navbar-collapse">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item ml-4 mr-4 {% if page.url == '/o-mne/' %}active{% endif %}">
+                            <li class="nav-item ml-3 mr-3 {% if page.url == '/' %}active{% endif %}">
+                                <a class="nav-link" href="/">Hlavní stránka</a>
+                            </li>
+                            <li class="nav-item ml-3 mr-3 {% if page.url == '/o-mne/' %}active{% endif %}">
                                 <a class="nav-link" href="/o-mne/">O mně</a>
                             </li>
-                            <li class="nav-item ml-4 mr-4 {% if '/blog' in page.url %}active{% endif %}">
+                            <li class="nav-item ml-3 mr-3 {% if '/blog' in page.url %}active{% endif %}">
                                 <a class="nav-link" href="/blog/">Blog</a>
                             </li>
-                            <li class="nav-item ml-4 mr-4 {% if page.url == '/kontakt/' %}active{% endif %}">
+                            <li class="nav-item ml-3 mr-3 {% if page.url == '/kontakt/' %}active{% endif %}">
                                 <a class="nav-link" href="/kontakt/">Kontakt</a>
                             </li>
                         </ul>
@@ -351,6 +360,7 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
                     <div class="col-sm-12 col-md-4 col-lg-4">
                         <h4>IvaHu.cz</h4>
                         <ul>
+                            <li><a class="{% if page.url == '/' %}active{% endif %}" href="/">Hlavní stránka</a></li>
                             <li><a class="{% if page.url == '/o-mne/' %}active{% endif %}" href="/o-mne/">O mně</a></li>
                             <li><a class="{% if '/blog' in page.url %}active{% endif %}" href="/blog/">Blog</a></li>
                             <li><a class="{% if page.url == '/kontakt/' %}active{% endif %}" href="/kontakt/">Kontakt</a></li>
