@@ -1,5 +1,5 @@
 ---
-title: Google Nákupy
+title: Google Nákupy, PLA kampaně
 description: Google nákupy (anglicky Google Shopping) představují produktové inzeráty ve vyhledávači Google. Inzeráty se skládají z fotografie produktu, jeho názvu, ceny a názvu e-shopu, v kterém může uživatel daný produkt koupit.
 ---
 

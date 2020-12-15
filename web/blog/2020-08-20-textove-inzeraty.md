@@ -1,5 +1,5 @@
 ---
-title: Textové inzeráty ve vyhledávání
+title: Textová reklama ve vyhledávání
 description: Textové inzeráty najdeme na Googlu i Seznamu. Zobrazují se pod lištou s vyhledáváním. Na Googlu se nad textovými inzeráty zobrazují v některých případech Google nákupy, v jiných případech se Google nákupy zobrazují vedle textových inzerátů.
 ---
 Textové inzeráty najdeme na **Googlu** i **Seznamu**. Zobrazují se pod lištou s vyhledáváním. Na Googlu se nad textovými inzeráty zobrazují v některých případech Google nákupy.
