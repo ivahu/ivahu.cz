@@ -36,6 +36,3 @@ Pokud chcete, aby se vaše produkty zobrazovaly na konkrétní klíčová slova,
 * Feed s produkty podle specifikace od Googlu
 * Nahraný feed do Google Merchant Center (systém pro správu feedů pro Google Nákupy)
 * Propojené Google Merchant Center s Google Ads
-
-Máte e-shop a ještě nemáte spuštěné Google nákupy? Ozvěte se na <a class="contact-email" href="mailto:iva@ivahu.cz">iva@ivahu.cz</a>. Pomohu vám s vytvořením feedu a přípravou kampaně.
-

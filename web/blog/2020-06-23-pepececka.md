@@ -47,11 +47,3 @@ Pokud začnete řešit PPC reklamu, tak se velmi brzy setkáte se zkratkami CPC,
 
 
 U PPC reklamy je důležité **stanovit si cíle kampaní** a **průběžně vyhodnocovat výsledky**, může se stát, že zjistíte, že pro vaše podnikání, tento typ reklamy nedává smysl. Ale proč to neotestovat?
-
-**Chcete se soustředit na vaše podnikání a ne trávit hodiny nastavováním PPC kampaní?** Ozvěte se na <a class="contact-email" href="mailto:iva@ivahu.cz">iva@ivahu.cz</a> a probereme, jaké máte možnosti.
-
-
-
-
-
-

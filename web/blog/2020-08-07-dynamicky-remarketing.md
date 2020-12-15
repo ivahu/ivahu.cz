@@ -37,6 +37,3 @@ Pokud máte jednotky produktů, můžete si feed s produkty vytvořit ručně v 
 
 ## Dynamický remarketing na Facebooku
 Dalším příkladem dynamického remarketingu je dynamický remarketing na Facebooku, kdy se uživateli zobrazují produkty, které navštívil na e-shopu mezi příspěvky od přátel.
-
-**Chcete se soustředit na vaše podnikání a ne trávit hodiny zkoumáním, jak fungují feedy a jak se nastavuje dynamický remarketing?** Ozvěte se na <a class="contact-email" href="mailto:iva@ivahu.cz">iva@ivahu.cz</a> a domluvíme se na spolupráci.
-

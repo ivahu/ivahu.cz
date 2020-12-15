@@ -17,5 +17,3 @@ Nejdříve si musíte založit účet v Google Analytics. Potom je nutné vloži
 
 Google Analytics je nástroj zdarma, který by neměl chybět na žádném webu. Kromě vložení kódu Google Analytics je důležité nástroj správně nastavit, aby měřil ty cíle, které potřebujete.
 Dobře nastavené Google Analytics vám pomohou správně vyhodnocovat vaše aktivity na internetu a vy budete mít přehled, do jakých aktivit dává smysl investovat.
-
-**A co vy máte na svém webu počítadlo návštěvnosti**? Nevíte si rady s nastavením nebo si nejste jisti, zda máte správně nastaveno? Ozvěte se na <a class="contact-email" href="mailto:iva@ivahu.cz">iva@ivahu.cz</a> a podíváme se na to.

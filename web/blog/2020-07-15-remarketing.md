@@ -26,6 +26,3 @@ Na remarketingový banner byste měli zvolit takovou textaci, z které bude pote
 
 
 Pokud chcete, aby se uživateli na obsahových webech zobrazovaly produkty, které navštívil na e-shopu, pak vyzkoušejte [dynamický remarekting](/blog/dynamicky-remarketing/).
-
-**Potřebujte poradit s nastavením remarketingu?** Ozvěte se na <a class="contact-email" href="mailto:iva@ivahu.cz">iva@ivahu.cz</a> a pobavíme se o tom, jestli dává remarketing smysl pro vaše podnikání, a jaké máte možnosti.
-

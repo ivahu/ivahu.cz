@@ -48,6 +48,3 @@ V reklamním systému **Google Ads** nebo **Skliku** nastavíte kampaň ve vyhle
 * Měli byste vědět, co bude cílem kampaně (návštěvy webu, objednávky, poptávky)
 * Seznam klíčových slov, na která chcete cílit
 * Texty inzerátů, které zaujmou uživatele, aby proklikl právě váš inzerát
-
-Nevíte si rady, jestli jsou pro vás vhodnější textové inzeráty, Google nákupy nebo remarketing? Ozvěte se na <a class="contact-email" href="mailto:iva@ivahu.cz">iva@ivahu.cz</a>. Pomohu vám nastavit vhodné kampaně pro vaše podnikání.
-

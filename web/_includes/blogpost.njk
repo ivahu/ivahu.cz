@@ -7,3 +7,39 @@ layout: layout.njk
 <p><small>{{ page.date | dateformat }}</small></p>
 
 {{ content | safe }}
+
+<style>
+    .blog-cta {
+        border: 2px solid #2F80ED;
+        border-radius: 20px;
+        padding: 2em;
+        margin-top: 2em;
+    }
+
+    .blog-cta .icon svg {
+        height: 4em;
+        margin-bottom: 1em;
+        fill: #8CBAFF;
+        float: left;
+    }
+
+    .blog-cta .blog-cta-claim {
+        font-size: 110%;
+    }
+</style>
+
+<div class="blog-cta container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-md-2 col-lg-1 align-self-center">
+            <div class="icon">{{ '/assets/icons/lightbulb.svg' | svgContents | safe }}</div>
+        </div>
+        <div class="col-sm-12 col-md-10 col-lg-11">
+            <p class="blog-cta-claim">
+                <strong>Chcete se soustředit na vaše podnikání a ne trávit hodiny studováním online marketingu?</strong>
+            </p>
+            <p>
+                <a href="/kontakt/" class="btn btn-primary mr-2">Ozvěte se mi.</a> Domluvíme se, jak vám mohu pomoci zviditelnit vaše podnikání na internetu.
+            </p>
+        </div>
+    </div>
+</div>
