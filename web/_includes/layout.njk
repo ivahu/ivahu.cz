@@ -150,6 +150,10 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
                 font-weight: 500;
             }
 
+            h4 {
+                font-size: 1.2rem;
+            }
+
             /* homepage */
             .opportunity-block-wrapper, .partnership-block-wrapper {
                 padding: 1em;
@@ -227,6 +231,26 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
             }
             .blogposts p {
                 font-size: 90%;
+            }
+
+            .main-content.o-mne h3 {
+                border-bottom: 2px solid #2F80ED;
+                font-weight: bold;
+                margin-top: 1.1em;
+                padding-bottom: 0.3em;
+            }
+
+            .main-content.o-mne h4 {
+                margin-top: 1em;
+            }
+
+            .main-content.o-mne .bullets-list {
+                margin-top: 0;
+            }
+            .main-content.o-mne p.client-description {
+                margin-bottom: 0.3em;
+                font-size: 90%;
+                font-style: italic;
             }
 
         </style>
@@ -322,7 +346,7 @@ description: Specializuji se na online marketing pro malé a střední firmy. V�
         </div>
         {% endif %}
 
-        <div class="container main-content">
+        <div class="container main-content {{ page.url | replace('/', '') }}">
 
             {{ content | safe }}
 
