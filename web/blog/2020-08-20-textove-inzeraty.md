@@ -25,7 +25,7 @@ Inzeráty na Googlu mohou být také rozšířeny o různá **rozšíření**, d
 ![Ukázka textového inzerátu na Googlu](/assets/blog/2020-08-20-textove-inzeraty/ukazka-inzeratu-na-googlu.png)
 
 
-Na Seznamu se zobrazují inzeráty pouze s dvěma nadpisy (každý může mít opět až 30 znaků) a s jedním popisem (max. 90 znaků). Inzeráty mohou být rozšířeny o odkazy na podstránky nebo adresu pobočky.
+Na Seznamu se zobrazují inzeráty pouze se dvěma nadpisy (každý může mít opět až 30 znaků) a s jedním popisem (max. 90 znaků). Inzeráty mohou být rozšířeny o odkazy na podstránky nebo adresu pobočky.
 
 
 ### Ukázka textového inzerátu na Seznamu
@@ -34,15 +34,15 @@ Na Seznamu se zobrazují inzeráty pouze s dvěma nadpisy (každý může mít o
 
 ## Jak fungují textové inzeráty?
 
-V reklamním systému **Google Ads** nebo **Skliku** nastavíte kampaň ve vyhledávání. Určíte si, na jaká **klíčová slova** chcete, aby se vámi zadané inzeráty zobrazovaly. Když uživatel zadá dotaz do vyhledávací lišty, tak se mu ve vyhledávání zobrazí textové inzeráty, které obsahují zadané klíčového slovo nebo jeho synonymum. Např. uživatel zadá do vyhledávače dotaz "televize Samsung", na tento dotaz se zobrazí textové inzeráty, které obsahují klíčové slovo "televize Samsung". Pokud nechcete, aby se inzeráty zobrazovaly na určitá klíčová slova, tak daná slova můžete přidat do tzv. **vylučujících slov**. Např. pokud přidáte slovo "bazar" do vylučujících slov, tak se vaše inzeráty nezobrazí na dotaz "televize samsung bazar".
+V reklamním systému **Google Ads** nebo **Sklik** nastavíte kampaň ve vyhledávání. Určíte si, na jaká **klíčová slova** chcete, aby se vámi zadané inzeráty zobrazovaly. Když uživatel zadá dotaz do vyhledávací lišty, tak se mu ve vyhledávání zobrazí textové inzeráty, které obsahují zadané klíčové slovo nebo jeho synonymum. Např. uživatel do vyhledávače zadá dotaz "televize Samsung", na tento dotaz se zobrazí textové inzeráty, které obsahují klíčové slovo "televize Samsung". Pokud nechcete, aby se inzeráty zobrazovaly na určitá klíčová slova, tak daná slova můžete přidat do tzv. **vylučujících slov**. Např. pokud přidáte slovo "bazar" do vylučujících slov, tak se vaše inzeráty nezobrazí na dotaz "televize samsung bazar".
 
-## Kdy dávají smysl textové inzeráty?
+## Kdy dávají textové inzeráty smysl?
 *  Když se nezobrazujete na dobrých pozicích mezi neplacenými výsledky vyhledávání.
 * Pokud chcete komunikovat něco jiného, než komunikujete v neplacených výsledcích - např. Akce, výprodej.
 * Když chcete cílit regionálně - např. v každém kraji / městě chcete komunikovat trochu něco jiného.
 * Pokud se chcete dozvědět, jaké dotazy vyhledávají uživatelé v souvislosti s vaším oborem podnikání.
 
-## Co potřebujete k spuštění kampaně?
+## Co potřebujete ke spuštění kampaně?
 *  Google Ads nebo Sklik účet
 * Cílovou stránku, na kterou bude odkazovat reklama
 * Měli byste vědět, co bude cílem kampaně (návštěvy webu, objednávky, poptávky)
